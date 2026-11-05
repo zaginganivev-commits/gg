@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dars-12~</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome (ikonkalar uchun) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-[#111315] text-white flex justify-center py-6">
+
+    <!-- Asosiy konteyner -->
+    <div class="w-full max-w-4xl bg-[#141618] border border-none shadow-2xl flex flex-col">
+
+        <!-- Header / Navbar -->
+        <header class="flex items-center justify-between px-8 py-5 border-b border-neutral-800">
+
+            <!-- LOGO QISMI MANA SHU YERDA: -->
+            <a href="#" class="flex flex-col items-center gap-1">
+                <!-- Logotip rasmi (img tegi) -->
+                <img src="./images/Group 33.png" alt="Goose Logo" class="w-8 h-8 object-contain">
+                <span class="text-[9px] tracking-[0.2em] uppercase font-bold text-gray-300">GOOSE</span>
+            </a>
+
+            <!-- Navigatsiya menyusi -->
+            <nav class="flex items-center gap-8 text-xs font-semibold tracking-wider uppercase">
+                <a href="#" class="text-red-500 hover:text-red-400 transition-colors">SERVICES</a>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">ABOUT</a>
+                <a href="#" class="text-gray-300 hover:text-white transition-colors">CONTACTS</a>
+            </nav>
+
+        </header>
+
+        <section class="w-full h-80 sm:h-96 md:h-[420px] overflow-hidden relative">
+            <img src="./images/image 168.png" alt="Team" class="w-full h-full object-cover object-top brightness-90" />
+        </section>
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-[#141618]">
+
+            <div
+                class="bg-[#f5a34c] rounded-2xl p-8 flex flex-col items-center justify-center min-h-[200px] shadow-md hover:scale-[1.01] transition-transform">
+                <div class="relative flex items-center justify-center mb-3">
+                    <div class="flex items-end gap-1 mb-1">
+                        <span class="w-2.5 h-6 bg-green-500 rounded-sm"></span>
+                        <span class="w-2.5 h-9 bg-yellow-400 rounded-sm"></span>
+                        <span class="w-2.5 h-12 bg-red-500 rounded-sm"></span>
+                    </div>
+                    <span
+                        class="absolute -bottom-2 text-3xl font-black text-sky-500 drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)]">SEO</span>
+                </div>
+                <h3 class="text-2xl font-black tracking-wider text-black mt-4">SEO</h3>
+            </div>
+
+            <!-- 2. Development Card -->
+            <div
+                class="bg-[#f5a34c] rounded-2xl p-8 flex flex-col items-center justify-center min-h-[200px] shadow-md hover:scale-[1.01] transition-transform">
+                <div class="w-16 h-16 flex items-center justify-center text-rose-500 mb-2">
+                    <i class="fa-solid fa-users-gear text-5xl text-rose-500 drop-shadow-sm"></i>
+                </div>
+                <h3 class="text-2xl font-bold tracking-wide text-neutral-900">Development</h3>
+            </div>
+            <div
+                class="bg-[#f26532] rounded-2xl p-8 flex flex-col items-center justify-center min-h-[200px] shadow-md hover:scale-[1.01] transition-transform">
+                <div
+                    class="w-16 h-16 rounded-full bg-blue-900 border-2 border-white/40 flex items-center justify-center mb-2 shadow-inner">
+                    <div class="grid grid-cols-2 gap-x-1 text-white text-[11px] font-black leading-tight text-center">
+                        <span>CT</span><span>ON</span>
+                        <span>TX</span><span>ET</span>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold tracking-wide text-neutral-900">Context</h3>
+            </div>
+            <!-- 4. SERM Card -->
+            <div
+                class="bg-[#f5a34c] rounded-2xl p-8 flex flex-col items-center justify-center min-h-[200px] shadow-md hover:scale-[1.01] transition-transform">
+                <div
+                    class="w-16 h-16 rounded-full bg-[#1b4372] border-2 border-amber-400 flex items-center justify-center mb-2 shadow-inner">
+                    <i class="fa-solid fa-arrows-to-circle text-2xl text-amber-400"></i>
+                </div>
+                <h3 class="text-2xl font-black tracking-widest text-neutral-900 uppercase">SERM</h3>
+            </div>
+
+            <!-- 5. CRM Card -->
+            <div
+                class="bg-[#f5a34c] rounded-2xl p-8 flex flex-col items-center justify-center min-h-[200px] shadow-md hover:scale-[1.01] transition-transform">
+                <div
+                    class="w-16 h-16 rounded-full border-4 border-dashed border-red-500 bg-white flex items-center justify-center mb-2 shadow">
+                    <span class="text-xs font-black text-neutral-800">CRM</span>
+                </div>
+                <h3 class="text-2xl font-black tracking-widest text-neutral-900 uppercase">CRM</h3>
+            </div>
+
+            <!-- 6. Web Scraping Card -->
+            <div
+                class="bg-[#f26532] rounded-2xl p-8 flex flex-col items-center justify-center min-h-[200px] shadow-md hover:scale-[1.01] transition-transform">
+                <div
+                    class="w-16 h-16 rounded-full bg-sky-200 border-2 border-white/60 flex items-center justify-center mb-2 shadow">
+                    <i class="fa-solid fa-window-restore text-2xl text-neutral-800"></i>
+                </div>
+                <h3 class="text-2xl font-bold tracking-tight text-neutral-900 font-serif">Web Scraping</h3>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer
+            class="flex flex-col sm:flex-row items-center justify-between px-8 py-5 border-t border-neutral-800 text-[11px] text-gray-400 gap-4">
+            <div class="flex items-center gap-2">
+                <img src="./images/Group 33.png" alt="">
+            </div>
+
+            <nav class="flex items-center gap-6 font-semibold uppercase tracking-wider text-[10px]">
+                <a href="#" class="hover:text-white transition-colors">SERVICES</a>
+                <a href="#" class="hover:text-white transition-colors">ABOUT</a>
+                <a href="#" class="hover:text-white transition-colors">CONTACTS</a>
+            </nav>
+
+            <div class="flex items-center gap-4 text-sm text-gray-300">
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="hover:text-white"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <div class="text-right text-[10px] text-gray-500">
+                <p>&copy; 2023 Goose Gr</p>
+                <a href="#" class="hover:underline">Privacy policy</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
